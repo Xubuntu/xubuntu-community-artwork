@@ -1,0 +1,13 @@
+Source: xubuntu-community-artwork
+Section: x11
+Priority: optional
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: xubuntu-community-wallpapers
+Architecture: all
+Depends: ${misc:Depends}
+Description: Xubuntu community wallpapers
+ This package contains the wallpapers from the
+ Xubuntu community contest.
