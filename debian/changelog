@@ -1,3 +1,16 @@
+xubuntu-community-artwork (16.04.0) xenial; urgency=medium
+
+  * Include winners from the Xubuntu 16.04 Community Contest
+  * debian/control:
+  * debian/xubuntu-community-wallpapers-trusty.install:
+  * debian/xubuntu-community-wallpapers-xenial.install
+    - Add packages for Trusty and Xenial wallpapers
+    - xubuntu-community-wallpapers is now a metapackage for the latest.
+  * debian/copyright:
+    - Add copyright information for the 16.04 wallpapers
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 10 Apr 2016 09:00:08 -0400
+
 xubuntu-community-artwork (14.04.0) trusty; urgency=medium
 
   * Initial release

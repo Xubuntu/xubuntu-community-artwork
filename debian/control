@@ -3,11 +3,32 @@ Section: x11
 Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.7
 
 Package: xubuntu-community-wallpapers
 Architecture: all
-Depends: ${misc:Depends}
+Depends: xubuntu-community-wallpapers-xenial, ${misc:Depends}
+Suggests: xubuntu-community-wallpapers-trusty
+Breaks: xubuntu-community-wallpapers (<< 16.04.0)
+Replaces: xubuntu-community-wallpapers (<< 16.04.0)
 Description: Xubuntu community wallpapers
+ This package is a metapackage for the latest 
+ wallpapers from the Xubuntu community contest.
+
+Package: xubuntu-community-wallpapers-trusty
+Architecture: all
+Depends: ${misc:Depends}
+Breaks: xubuntu-community-wallpapers (<< 16.04.0)
+Replaces: xubuntu-community-wallpapers (<< 16.04.0)
+Description: Xubuntu community wallpapers (Trusty)
  This package contains the wallpapers from the
- Xubuntu community contest.
+ Xubuntu 14.04 community contest.
+
+Package: xubuntu-community-wallpapers-xenial
+Architecture: all
+Depends: ${misc:Depends}
+Breaks: xubuntu-community-wallpapers (<< 16.04.0)
+Replaces: xubuntu-community-wallpapers (<< 16.04.0)
+Description: Xubuntu community wallpapers (Xenial)
+ This package contains the wallpapers from the
+ Xubuntu 16.04 community contest.
