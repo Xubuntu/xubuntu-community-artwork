@@ -1,13 +1,15 @@
 xubuntu-community-artwork (18.04.0) UNRELEASED; urgency=medium
 
   * Include winners from the Xubuntu 18.04 Community Contest
-  * debian/control:
-  * debian/xubuntu-community-wallpapers-bionic.install:
+  * d/control, debian/xubuntu-community-wallpapers-bionic.install:
     - Add package for Bionic wallpapers
-  * debian/copyright:
-    - Add copyright information for the 18.04 wallpapers
+  * d/copyright:
+    - Add copyright information for the 18.04 wallpapers and README
+    - Use secure Format URL
+  * d/compat, d/control:
+    - Bump debhelper version to 11
 
- -- Sean Davis <smd.seandavis@gmail.com>  Tue, 10 Apr 2018 20:10:20 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 10 Apr 2018 20:37:17 -0400
 
 xubuntu-community-artwork (16.04.0) xenial; urgency=medium
 
