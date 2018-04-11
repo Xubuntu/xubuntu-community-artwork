@@ -7,12 +7,13 @@ Standards-Version: 3.9.7
 
 Package: xubuntu-community-wallpapers
 Architecture: all
-Depends: xubuntu-community-wallpapers-xenial, ${misc:Depends}
-Suggests: xubuntu-community-wallpapers-trusty
+Depends: xubuntu-community-wallpapers-bionic, ${misc:Depends}
+Suggests: xubuntu-community-wallpapers-trusty,
+ xubuntu-community-wallpapers-xenial
 Breaks: xubuntu-community-wallpapers (<< 16.04.0)
 Replaces: xubuntu-community-wallpapers (<< 16.04.0)
 Description: Xubuntu community wallpapers
- This package is a metapackage for the latest 
+ This package is a metapackage for the latest
  wallpapers from the Xubuntu community contest.
 
 Package: xubuntu-community-wallpapers-trusty
@@ -32,3 +33,10 @@ Replaces: xubuntu-community-wallpapers (<< 16.04.0)
 Description: Xubuntu community wallpapers (Xenial)
  This package contains the wallpapers from the
  Xubuntu 16.04 community contest.
+
+Package: xubuntu-community-wallpapers-bionic
+Architecture: all
+Depends: ${misc:Depends}
+Description: Xubuntu community wallpapers (Bionic)
+ This package contains the wallpapers from the
+ Xubuntu 18.04 community contest.
