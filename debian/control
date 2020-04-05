@@ -12,8 +12,6 @@ Depends: xubuntu-community-wallpapers-focal, ${misc:Depends}
 Suggests: xubuntu-community-wallpapers-trusty,
  xubuntu-community-wallpapers-xenial,
  xubuntu-community-wallpapers-bionic
-Breaks: xubuntu-community-wallpapers (<< 16.04.0)
-Replaces: xubuntu-community-wallpapers (<< 16.04.0)
 Description: Xubuntu community wallpapers
  This package is a metapackage for the latest
  wallpapers from the Xubuntu community contest.
@@ -21,8 +19,6 @@ Description: Xubuntu community wallpapers
 Package: xubuntu-community-wallpapers-trusty
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: xubuntu-community-wallpapers (<< 16.04.0)
-Replaces: xubuntu-community-wallpapers (<< 16.04.0)
 Description: Xubuntu community wallpapers (Trusty)
  This package contains the wallpapers from the
  Xubuntu 14.04 community contest.
@@ -30,8 +26,6 @@ Description: Xubuntu community wallpapers (Trusty)
 Package: xubuntu-community-wallpapers-xenial
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: xubuntu-community-wallpapers (<< 16.04.0)
-Replaces: xubuntu-community-wallpapers (<< 16.04.0)
 Description: Xubuntu community wallpapers (Xenial)
  This package contains the wallpapers from the
  Xubuntu 16.04 community contest.
