@@ -2,12 +2,12 @@ xubuntu-community-artwork (20.04.0) UNRELEASED; urgency=medium
 
   * Include winners from the Xubuntu 20.04 Community Contest
   * d/compat, d/control:
-    - Bump debhelper to 12, drop d/control
+    - Bump debhelper to 12, drop d/compat
   * d/control:
     - Bump Standards-Version to 4.5.0
     - Set Rules-Requires-Root: no
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sun, 05 Apr 2020 15:48:14 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 05 Apr 2020 16:04:05 -0400
 
 xubuntu-community-artwork (18.04.0) bionic; urgency=medium
 
