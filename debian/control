@@ -8,9 +8,10 @@ Rules-Requires-Root: no
 
 Package: xubuntu-community-wallpapers
 Architecture: all
-Depends: xubuntu-community-wallpapers-bionic, ${misc:Depends}
+Depends: xubuntu-community-wallpapers-focal, ${misc:Depends}
 Suggests: xubuntu-community-wallpapers-trusty,
- xubuntu-community-wallpapers-xenial
+ xubuntu-community-wallpapers-xenial,
+ xubuntu-community-wallpapers-bionic
 Breaks: xubuntu-community-wallpapers (<< 16.04.0)
 Replaces: xubuntu-community-wallpapers (<< 16.04.0)
 Description: Xubuntu community wallpapers
@@ -41,3 +42,10 @@ Depends: ${misc:Depends}
 Description: Xubuntu community wallpapers (Bionic)
  This package contains the wallpapers from the
  Xubuntu 18.04 community contest.
+
+Package: xubuntu-community-wallpapers-focal
+Architecture: all
+Depends: ${misc:Depends}
+Description: Xubuntu community wallpapers (Focal)
+ This package contains the wallpapers from the
+ Xubuntu 20.04 community contest.
