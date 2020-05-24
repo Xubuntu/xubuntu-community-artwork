@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Xubuntu Community Artwork
+    url: https://bugs.launchpad.net/ubuntu/+source/xubuntu-community-artwork
+    about: Please report issues for xubuntu-community-artwork here.
