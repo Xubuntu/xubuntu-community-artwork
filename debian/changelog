@@ -1,4 +1,4 @@
-xubuntu-community-artwork (22.04.0) UNRELEASED; urgency=medium
+xubuntu-community-artwork (22.04.0) jammy; urgency=medium
 
   * Include winners from the Xubuntu 22.04 Community Contest
   * d/copyright:
@@ -10,7 +10,7 @@ xubuntu-community-artwork (22.04.0) UNRELEASED; urgency=medium
   * d/docs:
     - README > README.md
 
- -- Sean Davis <sean@bluesabre.org>  Mon, 11 Apr 2022 22:58:33 -0400
+ -- Sean Davis <sean@bluesabre.org>  Tue, 12 Apr 2022 06:36:40 -0400
 
 xubuntu-community-artwork (20.04.0) focal; urgency=medium
 
