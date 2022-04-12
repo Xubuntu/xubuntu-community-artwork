@@ -2,8 +2,8 @@ Source: xubuntu-community-artwork
 Section: x11
 Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
-Build-Depends: debhelper-compat (= 12)
-Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0.1
 Rules-Requires-Root: no
 
 Package: xubuntu-community-wallpapers

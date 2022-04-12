@@ -2,8 +2,11 @@ xubuntu-community-artwork (22.04.0) UNRELEASED; urgency=medium
 
   * Include winners from the Xubuntu 22.04 Community Contest
   * d/copyright:
-    - Update copyrights for newlu-added files
+    - Update copyrights for newly-added files
     - Change my email address
+  * d/control:
+    - Bump Standards-Version to 4.6.0.1
+    - Bump debhelper version to 13
 
  -- Sean Davis <sean@bluesabre.org>  Mon, 11 Apr 2022 22:58:33 -0400
 
