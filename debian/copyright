@@ -137,13 +137,17 @@ Files: usr/share/xfce4/backdrops/Untitled_by_Mathias_Huber.jpg
 Copyright: 2022, Mathias Hüber
 License: CC-BY-4.0
 
-Files: README
-Copyright: 2014, Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+Files: README.md
+Copyright: 2014-2020, Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
+License: BSD-3-Clause
+
+Files: .github/*
+Copyright: 2020, Sean Davis <sean@bluesabre.org>
 License: BSD-3-Clause
 
 Files: debian/*
 Copyright: 2014, Unit 193 <unit193@ubuntu.com>,
- 2016-2018, Sean Davis <smd.seandavis@gmail.com>
+ 2016-2022, Sean Davis <sean@bluesabre.org>
 License: BSD-3-Clause
 
 License: BSD-3-Clause
