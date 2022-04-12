@@ -7,6 +7,8 @@ xubuntu-community-artwork (22.04.0) UNRELEASED; urgency=medium
   * d/control:
     - Bump Standards-Version to 4.6.0.1
     - Bump debhelper version to 13
+  * d/docs:
+    - README > README.md
 
  -- Sean Davis <sean@bluesabre.org>  Mon, 11 Apr 2022 22:58:33 -0400
 
