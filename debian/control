@@ -8,10 +8,11 @@ Rules-Requires-Root: no
 
 Package: xubuntu-community-wallpapers
 Architecture: all
-Depends: xubuntu-community-wallpapers-focal, ${misc:Depends}
+Depends: xubuntu-community-wallpapers-jammy, ${misc:Depends}
 Suggests: xubuntu-community-wallpapers-trusty,
  xubuntu-community-wallpapers-xenial,
- xubuntu-community-wallpapers-bionic
+ xubuntu-community-wallpapers-bionic,
+ xubuntu-community-wallpapers-focal
 Description: Xubuntu community wallpapers
  This package is a metapackage for the latest
  wallpapers from the Xubuntu community contest.
@@ -43,3 +44,10 @@ Depends: ${misc:Depends}
 Description: Xubuntu community wallpapers (Focal)
  This package contains the wallpapers from the
  Xubuntu 20.04 community contest.
+
+Package: xubuntu-community-wallpapers-jammy
+Architecture: all
+Depends: ${misc:Depends}
+Description: Xubuntu community wallpapers (Jammy)
+ This package contains the wallpapers from the
+ Xubuntu 22.04 community contest.

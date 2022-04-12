@@ -1,3 +1,9 @@
+xubuntu-community-artwork (22.04.0) UNRELEASED; urgency=medium
+
+  * Include winners from the Xubuntu 22.04 Community Contest
+
+ -- Sean Davis <sean@bluesabre.org>  Mon, 11 Apr 2022 22:58:33 -0400
+
 xubuntu-community-artwork (20.04.0) focal; urgency=medium
 
   * Include winners from the Xubuntu 20.04 Community Contest
